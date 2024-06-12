@@ -1,0 +1,179 @@
+/* Mobile styles */
+@media (max-width: 767px) {
+  /* Header styles */
+  header {
+    flex-wrap: wrap;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .filters {
+    flex-wrap: wrap;
+  }
+
+  select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  /* Main styles */
+  main {
+    padding: 10px;
+  }
+
+  .card {
+    /* width: 100%; */
+    margin: 10px 0;
+  }
+
+  .card img {
+    height: 150px;
+  }
+
+  .card-text {
+    padding: 10px;
+  }
+
+  .card-text h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .rating {
+    font-size: 14px;
+  }
+
+  .instructor {
+    font-size: 14px;
+  }
+
+  .price {
+    font-size: 20px;
+  }
+
+  .card-text a {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  /* Footer styles */
+  footer {
+    flex-wrap: wrap;
+  }
+
+  .pagination {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Header styles */
+  input[type="text"] {
+    width: 300px;
+  }
+
+  /* Main styles */
+  main {
+    padding: 20px;
+  }
+
+  .card {
+    margin: 20px;
+  }
+
+  .card img {
+    height: 200px;
+  }
+
+  .card-text {
+    padding: 20px;
+  }
+
+  .card-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .rating {
+    font-size: 16px;
+  }
+
+  .instructor {
+    font-size: 16px;
+  }
+
+  .price {
+    font-size: 24px;
+  }
+
+  .card-text a {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  /* Footer styles */
+  .pagination {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 992px) {
+  /* Header styles */
+  input[type="text"] {
+    width: 400px;
+  }
+
+  /* Main styles */
+  main {
+    padding: 50px;
+  }
+
+  .card {
+    margin: 30px;
+  }
+
+  .card img {
+    height: 300px;
+  }
+
+  .card-text {
+    padding: 30px;
+  }
+
+  .card-text h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .rating {
+    font-size: 20px;
+  }
+
+  .instructor {
+    font-size: 20px;
+  }
+
+  .price {
+    font-size: 32px;
+  }
+
+  .card-text a {
+    font-size: 20px;
+    padding: 15px;
+  }
+
+  /* Footer styles */
+  .pagination {
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+}
+
+

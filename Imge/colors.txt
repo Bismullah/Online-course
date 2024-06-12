@@ -1,0 +1,14 @@
+ bluet   light   #74c0fc
+blue dark      #1971c2
+yellow light-1  #ffd43b
+yellow dark-1   #fab005
+yelllow dark-2  #f08c00
+
+b GRAY DARK #f1f3f5
+b gray light       #f8f9fa
+
+text light #868e96
+text dark-1 #495057
+text dark-2 #343a40
+red light #ff6b6b
+red dark #e03131

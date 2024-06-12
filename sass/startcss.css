@@ -1,0 +1,202 @@
+/* Reset default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set default font and background colors */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Style the header */
+  header {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style the search bar */
+  #search {
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    outline: none;
+  }
+  
+  /* Style the filters */
+  .filters select {
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+  }
+  
+  /* Style the main section */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px ;
+    justify-content: space-between;
+  }
+  
+  /* Style the course cards */
+  .card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-text {
+    padding: 20px;
+  }
+  
+  .card-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card-text .rating {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #f39c12;
+  }
+  
+  .card-text p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .card-text .instructor {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .card-text .price {
+    font-size: 24px;
+    color: #e74c3c;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .card-text .level{
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  .card-text .duration{
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  .card-text .language{
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .card-text a {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .card-text a:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Style the pagination */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+  }
+  
+  .pagination li {
+    margin: 0 10px;
+  }
+  
+  .pagination li a {
+    display: block;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .pagination li a:hover {
+    background-color: #f5f5f5;
+  }
+
+@media only screen and (max-width: 1000px){
+  .header{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .main{
+    display: flex;
+    flex: 0 0 100%/40%;
+
+    /* grid-template-columns: 100% 100%; */
+    /* grid-template-rows: repeat(4,1fr); */
+  }
+  .card {
+    width: calc(50.33% - 20px);
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+}
+
+  @media only screen and (max-width: 600px){
+    .card {
+      width: calc(100% - 20px);
+    
+    }
+    .filters{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      row-gap: 3rem;
+      flex-wrap: wrap;
+      margin-bottom: 1rem;
+    }
+  }

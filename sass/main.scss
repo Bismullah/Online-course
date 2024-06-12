@@ -1,0 +1,600 @@
+
+
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+
+}
+body{
+    font-family: sans-serif;
+    line-height: 1.2;
+    color: #333;
+    
+}
+html{
+    
+    font-size: 62.5%;
+}
+
+// base code
+.primary__heading{
+    font-size: 5.2rem;
+    margin-bottom: 3.5rem;
+  //   font-weight: bold;
+    text-transform: uppercase;
+      }
+.secondary_heading{
+    color: #444;
+    font-size: 32px;
+    text-transform: uppercase;
+    // text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+
+// .Login_page{
+// max-width: 100vw;
+// height: 100vh;
+// background-image: url(../images/loginbackground1.jpg);
+// background-position: center;
+// background-repeat: no-repeat;
+// background-size: cover;
+// display: flex;
+// flex-direction: column;
+// justify-content: right;
+// align-items: center;
+// .login__container{
+//     height: 8vh;
+//     width: 50vw;
+//     // transform: translateX(30%);
+//     // transform: translate(50%,10%);
+// }
+
+// .btn{
+//     padding: 10px 30px;
+//     color: #555;
+//     font-size: 1.2rem;
+//     border-radius: 1.1rem;
+//     outline: 0;
+//     border: 0;
+//     cursor: pointer;
+    
+    
+// }
+// .btn__sign_in{
+//     margin-right: 2.5rem;
+//     margin-top: 40px;
+//     transform: translate(230%,50%);
+//     background-color: #adb5bd;
+
+//     // background-color: #228be6;
+
+// }
+// .btn__sign_off{
+//     margin-right: 2.5rem;
+//     margin-top: 40px;
+//     transform: translate(230%,50%);
+    
+// }
+// }
+// // .clicked_btn{
+// //     border: 20px red soled;
+// // }
+// // ********************************
+// //  sign in and sign off cards
+// // *********************************
+// .card__container{
+//     width: 300px;
+
+// }
+// /* card code sign in  */
+// .card__container{
+//     // background-image:linear-gradient(#f0f2f54d 50%,rgba(154, 182, 233, 0.7)),url(../images/login5.jpg);
+//     background-repeat: no-repeat;
+//     background-size: cover;
+    
+//     background-position: center;
+//     transform: translate(-10%,30%);
+//     text-align: center;
+//     padding: 40px 60px ;
+//     height: auto;
+//     box-shadow:  5px  5px 33px rgba(0, 0, 0, .8);
+//     h2{
+//         color: #eee;
+//         font-size: 1.8rem;
+//         margin-bottom: 1.8rem;
+//     }
+//     form{
+//         margin-bottom: 1.2rem;
+
+//     input:not(:first-child){
+//         margin-top: 1rem;
+
+//     }
+//     input{ 
+//         padding: 10px;
+//         background-color: transparent;
+//         border: none;
+//         border-bottom: 2px #fff3bf solid;
+//         background-color: transparent;
+//         color: white;
+//         font-size: 14px;
+//         margin-left: -20px;
+//         &:focus{
+//            outline: none;
+
+//         }
+
+//     }
+    
+//     }
+//     p:not(:last-child){
+//         font-size: 1rem;
+//         text-transform: lowercase;
+//         margin-right: -100px;
+//         margin-top: -10px;
+//         margin-bottom: 40px;
+//     }
+//     p a{
+//         color: #d4d4d4;
+//         text-decoration: none;
+
+//     }
+//     .btn_form__submit{
+//         background-color: white;
+//         // margin-top: 30px;
+//         box-shadow: 3px 3px 6px rgba($color: #000000, $alpha: .8);
+//     }
+//   }
+
+//  the div that contain sign in and sign off button
+// ********************************
+//  Hero section start
+// *********************************
+
+.Hero{
+    max-width: 100vw;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFACD;
+
+
+    &_navbar{
+     padding: 1.6rem;
+     height: 10vh;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 3rem;
+
+     &_signinButton,
+    &_signoffButton{
+        padding: 14px 26px;
+        background-color: #eee;
+        color: #333;
+        border: none;
+        font-weight: bold;
+        font-size: 1.6rem;
+        border-radius: 1.2rem;
+        box-shadow: 3px 3px 10px rgba($color: #000000, $alpha: .8);
+        text-decoration: none;
+        cursor: pointer;
+        &:not(:first-child){
+            margin-left: 4rem;
+        }
+     }
+     &_logo{
+
+&_img{
+// border-radius: 6px;
+// opacity: 80%;
+width: 250px;
+height: 150px;
+margin-top: 6rem;
+}
+        
+     }
+     &_search{
+        width: 23%;
+        display: flex;
+        align-items: center;
+        transform: translateX(50%);
+        & input{
+            padding: 6px 40px;
+            width: 90%;
+            border-radius: 1.8rem;
+            outline: none;
+            border: none;
+            &:focus{
+                box-shadow: 3px 3px 6px rgba($color: #000000, $alpha: .6);
+                width: 100%;
+            }
+        }
+        & ion-icon{
+            font-size: 1.8rem;
+            margin-right: -3rem;
+            cursor: pointer;
+        }
+     }
+     &_menu{
+        // margin-left: 30px;
+        display: flex;
+
+        & ion-icon{
+            font-size: 34px;
+            margin-left: 8rem;
+        }
+     }
+
+
+    }
+
+
+    &_contents{
+height: 90vh;
+display: flex;
+justify-content: space-between;
+padding: 3rem;
+
+
+
+&_text{
+padding: 12rem 0 2rem 2rem;
+flex-basis: 50%;
+&_heading{
+color: #555;
+}
+    &_p{
+font-size: 1.8rem;
+padding-right: 5rem;
+line-height: 1.4;
+    }
+    &_users{
+        margin-top: 6rem;
+        margin-left: 2rem;
+
+
+
+ ul{
+
+display: flex;
+align-items: center;
+// display: block;
+ li{
+list-style: none;
+&:not(:last-child){
+    margin-left: -5px;
+ }
+  }
+ img{
+width: 30px;
+height: 30px;
+border-radius: 50%;
+border: 2px  #555 solid;
+
+  }
+
+}
+&_p{
+    font-size: 1.4rem;
+    color: #333 ;
+}
+    }
+}
+&_image{
+flex-basis: 40%;
+
+    
+    img{
+        width: 100%;
+        transform: translate(-20%,25%);
+       scale: 1.7;
+    }
+}
+
+    }
+
+}
+
+
+
+
+
+
+
+
+// ********************************
+//  Hero section End
+// *********************************
+// .Hero_navbar_logo_img{
+//     border-radius: 50%;
+// }
+
+// *******************************
+// catagory section
+// *******************************
+// .catagory{
+// max-width: 100vw;
+// height: auto;
+// // display: flex;
+// // flex-direction: cen;
+// padding: 9.6rem;
+
+// &_heading{
+// color: #555;
+// }
+// &_p{
+// font-size: 1.8rem;
+// }
+// &_cards{
+// margin-top: 5rem;
+// // border: 2px red solid;
+// display: grid;
+// grid-template-columns: repeat(3,1fr);
+// grid-template-rows: min-content;
+// gap: 2.2rem;
+// row-gap: 7rem;
+// margin-top: 10rem;
+// width: 90%;
+
+// }
+// &_card{
+// // display: flex;
+// // border-radius: .7rem;
+// box-shadow: 5px 5px 10px rgba($color: #000000, $alpha: .8);
+// // // width: 200px;
+// overflow: hidden;
+// height:auto;
+// width: 50%;
+// padding: 2rem;
+// // border: 2px red solid;
+
+
+// &_text{
+//     // padding: 1.8rem;
+//     // flex-basis: 100%;
+//     // background-color: rgb(241, 240, 240);
+
+//     // text-align: center;
+
+// }
+// &_heading{
+
+// }
+// &_p{
+// font-size: 1.4rem;
+// color: #555;
+// line-height: 1.4;
+// margin-bottom: 2rem;
+// // text-align:;
+// }
+// &_btn{
+
+//     margin-left: 30px;
+//     padding: 1.2rem 4rem;
+//     border-radius: .8rem;
+//      border: none;
+//      box-shadow: 3px 3px 6px rgba($color: #000000, $alpha: .8);
+//     background-color: white;
+//     font-size: 1.4rem;
+//     color: #333;
+//     font-weight: 700;
+// cursor: pointer;
+
+//     // border: none;
+//     transition: all .8s;
+//     margin-top: 1rem;
+//     &:hover{
+//         background-color: #222;
+//         color: #eee;
+//         // border: 2px ;
+//     }
+// }
+
+
+
+// &_img{
+// background-image: url(../images/background--32.jpg);  
+// background-position: center;
+// background-repeat: no-repeat;
+// background-size: cover;
+
+// }
+
+// }
+// &_div{
+//     text-align: center;
+//     margin-top: 7rem;
+
+// }
+
+// //  sass code for sea all
+// &_btn{
+//     border: none;
+//     border-bottom: 2px #333 solid;
+//     padding: 5px 30px;
+//     background-color: transparent;
+//     cursor: pointer;
+      
+
+//     & a{
+//   text-decoration: none;
+//   font-size: 18px;
+//   color: #333;
+//   text-align: center;
+//     }
+// }
+
+
+// }
+// ***********************
+// Teacher section
+// ***********************
+.teachers{
+    max-width: 1200px;
+    height: 70vh;
+    padding:  16.6rem;
+    font-size: 14px;
+&_underline{
+border-bottom: 3px lightgray solid;
+opacity: 80%;
+display: block;
+}
+&_heading{
+    color: #555;
+    margin-bottom: 1.5rem;
+    font-size: 4.2rem;
+    margin-left: 4rem;
+}
+&_contents{
+display: flex;
+gap: 5rem;
+padding: 3rem;
+padding-top: 6rem;
+
+}
+&_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+&_image{
+
+& img{
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+
+        }
+    }
+    &_name{
+font-size: 1.8rem;
+margin-top: 1rem;
+margin-bottom: .6rem;
+font-weight: 700;
+    }
+    &_about{
+& a{
+    text-decoration: none;
+    font-size: 16px;
+}
+    }
+}
+}
+// ***********************
+// footer section
+// ***********************
+.footer{
+display: flex;
+max-width: 100vw;
+height: 60vh;
+flex-direction: column;
+padding: 9.6rem;
+
+
+    &_contents{
+display: flex;
+justify-content: space-around;
+align-items: start;
+margin-top: 6rem;
+margin-bottom: 4rem;
+    }
+    &_logo{
+
+   display: flex;   
+   flex-direction: column;  
+   align-items: end;
+   &_img{
+    width: 200px;
+    height: 50px;
+    scale: 1.5;
+    // border-radius: 50%;
+   }
+   
+    }
+    &_heading{
+        font-size: 20px;
+
+    }
+    &_socialMedia{
+        display: flex;
+        margin-top: 2rem;
+        gap: 2rem;
+    li{
+        list-style: none;
+        cursor: pointer;
+        font-size: 2rem;
+        &:first-child{
+        }
+    }
+}
+&_about{
+    &_items{
+        display: flex;
+        flex-direction: column;
+        gap: .7rem;
+        li{
+            list-style: none;
+            font-size: 18px;
+            margin-top: 1.5rem;
+        color: #555;
+
+    }
+}
+    }
+    &_contact{
+        // font-size: 1.5rem;
+    }
+    &_copyright{
+        margin-top: 2.5rem;
+        font-size: 1.6rem;
+        padding: 3rem 9.6rem;
+        width: 90%;
+        text-align: center;
+        p{
+            line-height: 1.9;
+        color: #777;
+
+
+        }
+    }
+    &_underline{
+        border-bottom: 2px lightgray  solid;
+        opacity: 80%;
+        
+    }
+}
+
+
+
+
+
+
+@import "basse/base";
+@import "basse/butten";
+@import "basse/card";
+@import "basse/grid";
+@import "basse/section";
+@import "basse/typography";
+@import "basse/variables";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

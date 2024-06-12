@@ -1,0 +1,113 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.2;
+  color: #333;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.Login_page {
+  max-width: 100vw;
+  height: 100vh;
+  background-image: url(../Imge/loginbackground1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: center;
+}
+.Login_page .login__container {
+  height: 8vh;
+  width: 50vw;
+}
+.Login_page .btn {
+  padding: 10px 30px;
+  color: #555;
+  font-size: 1.2rem;
+  border-radius: 1.1rem;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+.Login_page .btn__sign_in {
+  margin-right: 2.5rem;
+  margin-top: 40px;
+  transform: translate(230%, 50%);
+  background-color: #adb5bd;
+}
+.Login_page .btn__sign_off {
+  margin-right: 2.5rem;
+  margin-top: 40px;
+  transform: translate(230%, 50%);
+}
+
+.card__container {
+  width: 300px;
+}
+
+/* card code sign in  */
+.card__container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transform: translate(-10%, 30%);
+  text-align: center;
+  padding: 40px 60px;
+  height: auto;
+  box-shadow: 5px 5px 33px rgba(0, 0, 0, 0.8);
+}
+.card__container h2 {
+  color: #eee;
+  font-size: 1.8rem;
+  margin-bottom: 1.8rem;
+}
+.card__container form {
+  margin-bottom: 1.2rem;
+}
+.card__container form input:not(:first-child) {
+  margin-top: 1rem;
+}
+.card__container form input {
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px #fff3bf solid;
+  background-color: transparent;
+  color: white;
+  font-size: 14px;
+  margin-left: -20px;
+}
+.card__container form input:focus {
+  outline: none;
+}
+.card__container p:not(:last-child) {
+  font-size: 1rem;
+  text-transform: lowercase;
+  margin-right: -100px;
+  margin-top: -10px;
+  margin-bottom: 40px;
+}
+.card__container p a {
+  color: #d4d4d4;
+  text-decoration: none;
+}
+.card__container .btn_form__submit {
+  background-color: white;
+  text-decoration: none;
+  padding: 10px 40px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+}

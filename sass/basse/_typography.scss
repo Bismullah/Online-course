@@ -1,0 +1,43 @@
+.header-primary{
+    font-size: 5.4rem;
+    color:#555;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    margin-bottom: 4.2rem;
+
+    }
+
+.heading-secondary {
+    color: #4e4e4e;
+    font-size: 2.1rem;
+    font-weight: 600;
+    text-align: left;
+    line-height: 0.9;
+    letter-spacing: -1.5;
+    text-transform: capitalize;
+    padding-top: 1.5rem;
+}
+
+// .heading-tertiary {
+//     font-size: 1.8rem;
+//     font-weight: 700;
+//     line-height: 1.5;
+//     letter-spacing: -1px;
+
+// }
+
+.pragrap {
+    font-size:1.9rem;
+    margin-right: 1.2rem;
+    &:not(:last-child){
+        margin-bottom: 1.8rem;
+    }
+}
+
+.text_info{
+    color: #777;
+    font-size: 1rem;
+    margin-left: 0.7rem;
+    line-height: 1.4;
+    margin-bottom: 1.6rem;
+}
